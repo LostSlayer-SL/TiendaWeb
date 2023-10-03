@@ -9,6 +9,7 @@ public class SistemaWebApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SistemaWebApplication.class, args);
 		System.out.println("hola mundo");
+		
 	}
 
 }

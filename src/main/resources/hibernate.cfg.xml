@@ -8,16 +8,8 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3310/tiendalupita</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
-
-
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-
         <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
-
-        <property name="hibernate.hbm2ddl.auto">update</property>
-
-
-        <mapping class="com.example.Facturaciones.model.CargoModel"/>
-        <mapping class="com.example.Facturaciones.model.UsuarioModel"/>
+        <property name="hibernate.hbm2ddl.auto">validate</property>
     </session-factory>
 </hibernate-configuration>
